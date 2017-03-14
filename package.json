@@ -1,0 +1,20 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Auth service with Koa",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salva Carsi",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-route": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.1"
+  }
+}
