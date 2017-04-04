@@ -11,9 +11,10 @@ TODO:
 - Implement MongoDB
 - Use JWT
  
-## Installation
+## Installation and running the Api
 npm install
 npm run start
+sudo service mongod start
 api is available locally at http://localhost:8008/
 
 ## Deploy
