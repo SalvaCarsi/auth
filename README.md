@@ -1,4 +1,4 @@
-#Auth Api
+# Auth Api
 
 Micro service that provides authentication for a logged in user by email and password.
 
@@ -11,12 +11,12 @@ TODO:
 - Implement MongoDB
 - Use JWT
  
-##Installation
+## Installation
 npm install
 npm run start
 api is available locally at http://localhost:8008/
 
-##Deploy
+## Deploy
 heroku login
 heroku create my-app-name
 git push heroku master
