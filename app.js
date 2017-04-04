@@ -12,5 +12,5 @@ const routes = {
 
 app.use(_.get('/', routes.index));
 
-app.listen(8008);
+app.listen(process.env.PORT || 8008);
 console.log('Koa listening on port 8008');
