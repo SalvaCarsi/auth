@@ -5,7 +5,8 @@ const app = new Koa();
 
 const routes = {
   index: (ctx) => {
-    ctx.body = '<h1>The server is up and running!</h1>';
+    console.log('Koa hitting index route');
+    ctx.body = { token: 'fake-token' };
   }
 };
 
